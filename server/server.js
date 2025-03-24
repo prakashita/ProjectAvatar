@@ -31,7 +31,7 @@ async function generateImage(inputPath, outputPath) {
     });
 
     const contents = [
-      { text: "Create a 3D animated avatar in a single image of the input image with a friendly and cheerful expression maintaining face shape. The avatar should have large expressive eyes, neatly styled dark hair, and a warm smile. The character should wear a simple, light-colored outfit, and the background should be a gradient of blue tones to give a soft and professional look. The style should resemble modern 3D Pixar-style animation with smooth shading, soft lighting, and a slightly glossy finish. Ensure the overall image maintains a polished and inviting aesthetic. The avatar should be enclosed within a circular frame and rendered at a resolution of 1024x1024 pixels." },
+      { text: "Create a 3D animated avatar in a single image of the input image with a friendly and cheerful expression maintaining face shape. The avatar should have large expressive eyes, neatly styled dark hair, and a warm smile. The character should wear a simple, light-colored outfit, and the background should be a gradient of blue tones to give a soft and professional look. The style should resemble modern 3D Pixar-style animation with smooth shading, soft lighting, and a slightly glossy finish. Ensure the overall image maintains a polished and inviting aesthetic. The avatar should be enclosed within a circular frame and rendered at a resolution of 1024x1024 pixels.Dont ignore spectacles " },
       { inlineData: { mimeType: "image/png", data: base64Image } }
     ];
 
